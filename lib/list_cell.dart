@@ -29,11 +29,13 @@ class ListCell extends StatelessWidget {
     return Navigator.push(
         context,
         MaterialPageRoute(builder: (context) =>
-            TreinoDetails(
+            treino_detalhes(
               title: title,
               treino: treino,
             ))
     );
   }
+
+  treino_detalhes({String title, Treino treino}) {}
 
 }
