@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     final double myIconSize = 30.0;
     final TextStyle myTextStyle =
     TextStyle(color: Colors.grey, fontSize: myTextSize);
-zc
+
     var column = Column(
       // Makes the cards stretch in horizontal axis
       crossAxisAlignment: CrossAxisAlignment.stretch,
